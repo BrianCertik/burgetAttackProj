@@ -1,0 +1,12 @@
+networks:
+  default: local-bsc-fork
+  local-bsc-fork:
+    pancake_pair: "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"
+
+autofetch_sources: false
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.0.0
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.0.0"
