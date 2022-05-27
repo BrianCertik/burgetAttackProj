@@ -1,11 +1,11 @@
 pragma solidity =0.5.16;
 
-import "./SafeMath.sol";
-import "./UQ112x112.sol";
+import "../libraries/SafeMath.sol";
+import "../libraries/UQ112x112.sol";
 import "../interfaces/IPancakePair.sol";
 import "./PancakeERC20.sol";
 import "../interfaces/IPancakeFactory.sol";
-import "./Math.sol";
+import "../libraries/Math.sol";
 import "../interfaces/IERC20.sol";
 import "../interfaces/IPancakeCallee.sol";
 

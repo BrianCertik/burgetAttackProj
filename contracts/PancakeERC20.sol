@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
 import "../interfaces/IPancakeERC20.sol";
-import "./SafeMath.sol";
+import "../libraries/SafeMath.sol";
 
 contract PancakeERC20 is IPancakeERC20 {
     using SafeMath for uint;
